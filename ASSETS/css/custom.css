@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+#navbarDropdown{
+    padding: 15px;
+    color: black;
+    transition: 1s;
+
+
+}
+
+#navbarDropdown:hover{
+    color: white;
+    background-color: black;
+
+
+}
+
+ .dropdown .dropdown-menu {
+
+    opacity: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    max-height: 300px;
+    opacity: 1;
+
+
+  }
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px ;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    
+}
+nav{
+    margin-bottom: 23px;
+    margin-top: 25px;
+}
+.navbar-brand{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 30px;
+}
+
+.fab{
+color:black;
+}
+.navbar-brand{
+    transition: 1s;
+
+}
+.dropdown-toggle:hover::after {
+    border: none!important;
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "✖";
+    vertical-align: 0; /* to center vertically */
+  }
+  .containerr {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  .centered {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+
+  
+
+  

@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:wght@100;400&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 #navbarDropdown{
     padding: 15px;
     color: black;
@@ -40,17 +44,22 @@ nav{
     margin-top: 25px;
 }
 .navbar-brand{
-    font-family: 'Yeon Sung', cursive;
-    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 25px;
+    
 }
+.navbar-brand:hover{
+    font-style: italic;
+}
+
 
 .fab{
 color:black;
 }
-.navbar-brand{
-    transition: 1s;
 
-}
 .dropdown-toggle:hover::after {
     border: none!important;
     font-family: "Font Awesome 5 Free"; font-weight: 400; content: "✖";
@@ -61,16 +70,85 @@ color:black;
     text-align: center;
     color: white;
     width: 100%;
+    margin-bottom: 50px;
   }
   .centered {
-    
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
   }
 
-  
+#brand{
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+    font-size: 25px ;
 
-  
+}  
+.d-flex{
+    padding: 10px;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container h2{
+     text-align: center;
+}
+.container p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+.container{
+    margin:0;
+   
+}
+.container a{
+color: rgb(212, 49, 49);
+text-decoration: none;
+}
+.container a:hover{
+    filter: brightness(150%);
+
+    }
+
+
+#footer{
+    padding-top: 200px;
+   height:245px;
+   color: white;
+   text-align: center;
+background-color:rgb(35, 42, 51)
+}
+#footer span{
+    font-style: italic;
+    font-size: 15px;
+    
+}
+.row .fab{
+color: white;
+font-size: 22px;
+
+}
+.row .fab:hover{
+    color:yellow;
+
+}
+.row{
+    padding-right: 0%;
+}
+
+.btn-danger:hover{
+    filter: brightness(150%);
+
+}
+span{
+    padding-right: 30px;
+}

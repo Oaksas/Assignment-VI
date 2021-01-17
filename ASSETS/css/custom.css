@@ -44,7 +44,7 @@ nav{
     margin-top: 25px;
 }
 .navbar-brand{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-family: 'PT Sans', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Yusei Magic', sans-serif;
@@ -71,6 +71,18 @@ color:black;
     color: white;
     width: 100%;
     margin-bottom: 50px;
+
+  }
+  .header{
+      color: white;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 200px 200px;
+    background-image: url("..//IMAGES/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0% 0%,100% 0%, 100% 80%,50% 100%,0% 80%);
   }
   .centered {
     font-family: 'Lato', sans-serif;
@@ -98,16 +110,23 @@ color:black;
     text-align: center;
     margin-bottom: 100px;
 }
-.container h2{
+.container-fluid h2{
      text-align: center;
+     font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+     font-weight: 600;
 }
-.container p{
+.container-fluid p{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
+    line-height:45px;
+    margin-bottom: 20px;
+
 }
 .container-fluid{
     margin:0;
+    padding-bottom: 30px;
    
 }
 .container-fluid a{
@@ -118,14 +137,15 @@ text-decoration: none;
     filter: brightness(150%);
 
     }
-
-
 #footer{
-    padding-top: 200px;
-   height:245px;
+    padding-top:40%;
+   height:50%;
    color: white;
    text-align: center;
-background-color:rgb(35, 42, 51)
+   background-color: rgb(44, 43, 56);
+   clip-path: polygon(100% 50%, 100% 48%, 100% 100%, 0 100%, 0% 50%, 52% 68%);
+
+  
 }
 #footer span{
     font-style: italic;
@@ -151,4 +171,55 @@ font-size: 22px;
 }
 span{
     padding-right: 30px;
+}
+
+/*crousel colors*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+
+#upFoot{
+    padding:50px 30px;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%; 
+    z-index: 1;
+    border-radius: 10px;
+    background-image: url("..//IMAGES/footerSubscribe.jpg");
+   
+}
+#footContainer{
+text-align: center;
+    position: relative;
+}
+
+#footContainer input[type="text"]{
+    border-radius: 4px;
+}
+#footContainer h2{
+font-size: 32px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+   margin-top: 20px;
+   margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#unsubscribe{
+    font-size:18px ;
+    line-height: 36.6px;
+    text-align: right;
+    color: lightgrey;
+    font-family: 'proxima-nova', sans-serif;
+}
+img{
+    border-radius: 4px;
 }

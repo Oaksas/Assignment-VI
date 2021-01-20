@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="ASSETS/css/custom.css">
     <link rel="stylesheet" href="ASSETS/css/all.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="ASSETS/IMAGES/LOGO.png" />
-    <link rel="stylesheet" href="ASSETS/css/gallery-grid.css">
+    
     
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -35,8 +35,27 @@
 
 
   }
-  
+  .gallery-block{
+    padding-bottom: 0;
+    padding-top:50px;
 
+  }
+  .gallery-block.compact-gallery .item{
+    overflow: hidden;
+    margin-bottom: 0;
+    opacity: 1;
+  }
+  .gallery-block.compact-gallery .item .image{
+    transition: 0.8s ease;
+  }
+  .gallery-block img:hover{
+    transform: translate(0, -5px);
+    min-height:100%;
+    background-color: black;
+    opacity: 0.5; 
+  }
+ 
+ 
 
 </style>
    
@@ -46,7 +65,7 @@
  
     <nav class = "navbar navbar-fixed-top navbar-light navbar-expand-md navbar-template" id ="nav">
 
-<a class="navbar-brand" href="#" ><span id="brand">WOLDEAMANUAL</span>GETNET</a>
+<a class="navbar-brand" href="index.html" ><span id="brand">WOLDEAMANUAL</span>GETNET</a>
 
   <button class="navbar-toggler" type ="button" data-toggle ="collapse" data-target="#navbarSupportedContent">
     <span class="navbar-toggler-icon"></span>
@@ -57,7 +76,7 @@
     <ul class=" navbar-nav ml-auto " >
  
       <li  class= "nav-item dropdown">
-        <a class ="nav-link dropdown-toggle" href="http://www.google.com" id ="navbarDropdown"
+        <a class ="nav-link dropdown-toggle" href="about.html" id ="navbarDropdown"
         role="button"><i class="fas fa-user-secret"></i>&nbsp;ABOUT</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#"><i class="fas fa-clock"></i> WHAT I'M DOING NOW</a>
@@ -151,17 +170,20 @@
       <a class="nav-link active" href="#who">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Projects</a>
+      <a class="nav-link" href="#project">Projects</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#ideas">Ideas</a>
+      <a class="nav-link" href="#idea">Ideas</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link" href="#contact">Contact</a>
     </li>
     
   </ul>
 </nav>
+<div id="status">
+fafs
+</div>
     
 <!--Who am i-->
 
@@ -190,7 +212,7 @@ Here are some of my works with a discription...
 
 
 
-<div class="aboutTitle" style="font-size: 48px;">
+<div class="aboutTitle" id="project" style="font-size: 48px;">
   My Work
 </div>
 
@@ -272,7 +294,7 @@ During his teenage, unlike son of a king, he used to live in the forest, learnin
 
 
 
-<div class="aboutTitle" style="font-size: 48px;">
+<div class="aboutTitle" id="idea" style="font-size: 48px;">
   Ideas I Live By
 </div>
 
@@ -298,7 +320,7 @@ During his teenage, unlike son of a king, he used to live in the forest, learnin
 
 <!--Contact section
 -->
-<div class="aboutTitle" style="font-size: 48px;">
+<div class="aboutTitle" id="contact" style="font-size: 48px;">
   Contact Me
 </div>
 
@@ -316,33 +338,42 @@ During his teenage, unlike son of a king, he used to live in the forest, learnin
 
 
 
-
 <!-- Gallery Image-->
-<div class="container gallery-container">
+<div class="aboutTitle" style="font-size: 48px;">
+Headshots
+</div>
 
-  <h1>Bootstrap 3 Gallery</h1>
+<div class="gallery-block compact-gallery">
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <div class="col-md-6 col-lg-3 item zoom-on-hover">
+        <a class="lightbox" href="ASSETS/IMAGES/ff.jpg">
+          <img class="img-fluid image" src="ASSETS/IMAGES/ff.jpg" alt="">
 
-  <p class="page-description text-center">Grid Layout With Zoom Effect</p>
-  
-  <div class="tz-gallery">
+        </a>
 
-      <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="ASSETS/IMAGES/reading.jpg">
-              <img src="IMAGES/Profile.jpg" alt="Park">
-              </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <a class="lightbox" href="ASSETS/IMAGES/reading.jpg">
-                  <img src="IMAGES/Profile.jpg" alt="Park">
-              </a>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <a class="lightbox" href="ASSETS/IMAGES/reading.jpg">
-              <img src="IMAGES/Profile.jpg" alt="Park">
-              </a>
-          </div>
-           </div>
+      </div> 
+      <div class="col-md-6 col-lg-3 item zoom-on-hover">
+        <a class="lightbox" href="ASSETS/IMAGES/headshot2.jpg">
+          <img class="img-fluid image" src="ASSETS/IMAGES/headshot2.jpg" alt="">
+        </a>
+
+      </div> 
+      <div class="col-md-6 col-lg-3 item zoom-on-hover">
+        <a class="lightbox" href="ASSETS/IMAGES/headshot7.jpg">
+          <img class="img-fluid image" src="ASSETS/IMAGES/headshot7.jpg" alt="">
+        </a>
+
+      </div> 
+      <div class="col-md-6 col-lg-3 item zoom-on-hover">
+        <a class="lightbox" href="ASSETS/IMAGES/main.jpg">
+          <img class="img-fluid image" src="ASSETS/IMAGES/main.jpg" alt="">
+
+        </a>
+
+      </div> 
+
+    </div>
 
   </div>
 
@@ -423,10 +454,19 @@ During his teenage, unlike son of a king, he used to live in the forest, learnin
 
 
       <!--Gallery Script-->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
       <script src="ASSETS/js/script.js"></script>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <script>
+
+        baguetteBox.run('.compact-gallery',{animation:'slideIn'});
+      </script>
 </body>
 
 </html>

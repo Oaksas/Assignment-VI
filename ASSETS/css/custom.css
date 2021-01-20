@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 #navbarDropdown{
     padding: 15px;
-    color: black;
+    color: #3f3f3f;
     transition: 1s;
 
 
 }
+
 
 #navbarDropdown:hover{
     color: white;
@@ -34,9 +35,8 @@ ul li a{
     color: white;
     text-decoration: none;
     padding: 20px ;
-    word-spacing: 20px;
     letter-spacing: 5px;
-    font-size: 12px;
+    font-size: 13px;
     
 }
 nav{
@@ -131,11 +131,12 @@ color:black;
     font-weight: 300;
     line-height:45px;
     margin-bottom: 20px;
+    color: #212529;
 
 }
 .container-fluid{
 
-
+padding-top: 20px;
     padding-bottom: 40px;
    
 }
@@ -148,6 +149,7 @@ text-decoration: none;
 
     }
 #footer{
+    padding-bottom: 15px;
     margin-top: 50px;
     padding-top:40%;
    height:50%;
@@ -232,7 +234,8 @@ font-size: 32px;
 #unsubscribe{
     font-size:18px ;
     line-height: 36.6px;
-    text-align: right;
+    float: right;
+    text-align: center;
     color: lightgrey;
     font-family: 'proxima-nova', sans-serif;
 }
@@ -249,4 +252,43 @@ nav{
 
   }
   
- 
+ /*About me css*/
+ .aboutTitle{
+     text-align: center;
+     padding-top: 10px;
+ }
+ .aboutTitle h1{
+    font-size: 91px;
+    font-weight: 500;
+
+
+ }
+ .fixed{
+     position: fixed;
+     top: 0;
+     margin-top: 0px;
+   width: 100%;
+ }
+ #middleCenter{
+   width: 75%;
+    text-align: left;
+    float: center;
+
+ }
+ #basicText{
+     font-size:18px;
+     margin-bottom: 50px;
+ }
+.secondTitle{
+    padding-bottom: 10px;
+    font-weight: 600;
+    color:#272121
+
+}
+.secondTitle:hover{
+color: #f97070;
+}
+
+ /*
+ Gallery
+ */

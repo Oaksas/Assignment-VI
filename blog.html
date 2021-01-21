@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woldeamanual Getnet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="ASSETS/css/custom.css">
+    <link rel="stylesheet" href="ASSETS/css/all.min.css">
+    <link rel="stylesheet" href="ASSETS/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="ASSETS/IMAGES/LOGO.png" />
+
+
+ 
+</head>
+<body>
+ 
+    <nav class = "navbar navbar-fixed-top navbar-light navbar-expand-md navbar-template" id ="nav">
+
+<a class="navbar-brand" href="index.html" ><span id="brand">WOLDEAMANUAL</span>GETNET</a>
+
+  <button class="navbar-toggler" type ="button" data-toggle ="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+
+<div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class=" navbar-nav ml-auto " >
+ 
+        <li  class= "nav-item dropdown">
+          <a class ="nav-link dropdown-toggle" href="about.html" id ="navbarDropdown"
+          role="button"><i class="fas fa-user-secret"></i>&nbsp;ABOUT</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="whatNow.html"><i class="fas fa-clock"></i> WHAT I'M DOING NOW</a>
+              <a class="dropdown-item" href="contact.html"><i class="fas fa-address-book"></i> CONTACT ME</a>
+
+          </div>
+      </li>
+  
+  
+  
+    
+      <li class ="nav-item active">
+        <a id="navbarDropdown" class ="nav-link" href="books.html"><i class="fas fa-book-open"></i>&nbsp;READING</a>
+    </li>
+      
+
+  <li class ="nav-item active">
+      <a id="navbarDropdown" class ="nav-link" href="course.html"><i class="fas fa-pen-nib"></i>&nbsp;COURSES</a>
+  </li>
+  <li class ="nav-item active">
+    <a id="navbarDropdown" class ="nav-link" href="blog.html"><i class="fas fa-rss"></i>&nbsp;BLOG</a>
+  </li>
+  
+  <li class ="nav-item active">
+    <a id="navbarDropdown" class ="nav-link" href="https://www.facebook.com/amanuel.getnet.35" style="background:white;"><i class="fab fa-facebook-f"></i>  </a>
+  
+  </li>
+  
+  <li class ="nav-item active">
+    <a id="navbarDropdown" class ="nav-link" href="https://t.me/AzurGallery" style="background:white;"><i class="fab fa-telegram-plane"></i>  </a>
+  </li>
+  
+  <li class ="nav-item active">
+    <a id="navbarDropdown" class ="nav-link" href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" style="background:white;"><i class="fab fa-linkedin"></i>  </a>
+  </li>
+  
+      </ul>
+  
+
+</div>
+
+    </nav>
+<!--Personal Blog section-->
+    <div class="aboutTitle">
+        <h1>Personal Blog</h1>
+  </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <img src="ASSETS/IMAGES/blogCss.jpg" class="card-img-top" alt="...">
+
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseThree">
+                        Pros of relative size( %, em, rem) over pixel.
+                        
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Using pixels as a measurement unit in webpages, most of the time, limits users from experiencing the most from the website they want to surf. They have to use the same screen-size device as the developer in order to see all the same output as the developer. Moreover partially-visually-impaired users could not increase, let’s say, the font size of the page he/she would like to access. This would cause a bias of information among users. The layout is also one problem; as the user with smaller or larger screen-size device might find the webpage layout changing as screen-size changes. The convenient ways to use pixel are: when we want build a website which could be used in a small team on the same screen-sized device,
+                     and when we want to preserve some constant spacing among the webpage Element.               
+                       </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <img src="ASSETS/IMAGES/browser.jpg" class="card-img-top" alt="...">
+
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How Does The Browser Interprete Pixels ?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                      <p>
+                        CSS pixel - is the height and width of a dot that can be seen comfortably without strain. 
+                        1 CSS pixel is equal to 1 physical pixel at 96 DPI ( Pixel Density)
+                         located at arm’s length from the users view point.
+                      </p>
+                      <p>
+                        CSS pixels are basically not actual pixels. They are created for the convenience of the developers.
+                         Basically the CSS pixels change according to the zoom level of the user. On the contrary, the device pixel, 
+                         which is the actual pixel, does not change under any circumstances.
+                         So CSS pixels are relative to the user’s experience.
+                      </p>
+                      <p>
+                        So according to my conclusion, specifying the size of an element's size with a pixel larger than browser’s
+                         default pixel would make the browser act like the second device pixel in which the newly specified element 
+                         is situated in proportion to the browser’s full pixel size (mostly it is 16px).
+                      </p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <img src="ASSETS/IMAGES/blogCss1.jpg" class="card-img-top" alt="...">
+
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+                        Newly Added CSS3 Element
+                                         
+                    </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseThree" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+<h3>Selectors</h3>
+<ul>
+    <li>
+        Element[attribute=”value”]   =   target an element with an attribute with a value “value”.
+
+    </li>
+    <li>
+        Element[attribute^ = “value”]   =  target an element that starts with “value”
+
+
+    </li>
+    <li>
+        Element[attribute$^=”value”]   =  target an element that finishes with “value”
+
+    </li>
+
+    <li>
+        Element:nth-child(nth)   =  target an element at nth position of parent.
+
+
+    </li>
+    <li>
+        Element:last-child   =  target an element at the last position of parent.
+
+
+    </li>
+    <li>
+        Element:last-of-type   =  target the last type of Element.
+
+
+    </li>
+</ul>
+<h3>Rounded Corners
+
+</h3>
+<ul>
+    <li>
+        Before CSS3, making round borders was so difficult to archive.
+         Progrmmers needed to write a lot of code in order to get the effect. 
+        But CSS3 made it so easy by introducing border-radius.
+    </li>
+
+</ul>
+<h3>Border Image and Border Shadow.
+
+</h3>
+<ul>
+    <li>
+        Another cool feature of CSS3 is Border-Image. This feature allow us to change the look of the CSS border.
+         Border-Shadow is so usefull inorder to make cool 3D effects as well.
+
+    </li>
+    
+</ul>
+<h3>Text Shadow
+
+
+
+</h3>
+<ul>
+    <li>
+        This cool feature allows us to add drop shodows to the text.
+        Element{ text-shadow: 2px 2px #color; }
+
+    </li>
+    
+</ul>
+
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </div>
+        
+
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <img src="ASSETS/IMAGES/ai (1).jpg" class="card-img-top" alt="...">
+
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    The Year of Artificial Intelligence                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+<p>
+  Robots, robots, and more robots will increasingly surround us in 2021.
+  </p>
+<p>
+  We ended 2020 watching the Boston Dynamics robots do choreography.
+   This showcased just how incredibly capable these things are becoming and making some of us wonder if we should be looking for Skynet.
+</p>
+<p>
+  However, rather than anticipating robots that will either kill or protect us, much of what we'll see is delivery and food prep.
+</p>
+<p>
+  One of the big things that happened late in 2020 was that the FAA cleared the way for drone delivery, 
+  allowing drones to fly over populated areas and at night. Initially, drone delivery will mostly deploy in rural areas where it makes sense given the lack of high-density housing such apartment complexes that don't lend themselves to drone delivery. Still, for some of us, drones delivering packages will be common by the end of this year. For folks in New York and Las Vegas, Walmart will be delivering by air to you shortly.
+
+
+</p>
+
+</div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <img src="ASSETS/IMAGES/crypt.jpg" class="card-img-top" alt="...">
+
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                      Get No-Fuss File-Level Crypto With Fscrypt                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+<p>
+  Fscrypt is a tool that presents a simple command line interface for configuring the encryption built into the extension 4
+   (more commonly "ext4") filesystem. It is not an encryption algorithm in its own right, but an intermediary between the user and ext4's
+    native encryption. The intent behind fscrypt is to decipher the otherwise arcane incantations of ext4 encryption into something comprehensible to intermediate Linux.
+</p>      
+
+<p>
+  While simple, fscrypt offers multiple configuration modes. First, it can encrypt any directory, 
+  protecting all the files and subdirectories within. This protection obscures both the filenames and data of all its contents when it's locked
+</p>
+<p>
+  Second, and most appealing for those seeking unobtrusive security, is that users can set the decryption to occur automatically upon entering their user password. Instead of getting a second, separate decryption prompt along with the login prompt, the act of logging in itself performs the decryption.
+
+
+</p>
+
+
+</div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                        <img src="ASSETS/IMAGES/linux (1).jpg" class="card-img-top" alt="...">
+
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseOne">
+                        What Does the Penguin Say?
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+<p>
+  Recently, I bumped into a friend (at an appropriate social distance because, yes, this is 2020) that I hadn't seen in a long time. The two of us have many common interests, and little time to discuss them. But in the few minutes before parting ways, 
+  we immediately slid into discussing Linux. We talked distros, desktops, and configurations, and everything in between.
+</p>          
+<p>
+  This serendipitous meeting reminded me of how tightly knit the Linux community is. So, I thought I would explore what about Linux brings us together. In previous pieces, I profiled some of the hubs where Linux fans convene. This time, I will go more in depth about what Linux users talk about. Before I'm finished, I have a feeling you will see just what makes Linux such an inexhaustible font of conversation.
+
+
+</p>
+<h2>
+  Why Is There So Much Linux on the Web?
+
+</h2>
+<p>
+  I chalk this up to a few factors. First, Linux was practically born on the Web. In Linux's infancy, Linus Torvalds not only made the kernel available online, but he attracted a throng of would-be contributors via Usenet who collaborated in Linux's development. The Internet has been a significant distribution channel ever since, facilitating the obtainment and installation of desktop Linux distributions in the large majority of cases today.
+
+
+</p>
+<p>
+  Second, since one could not easily purchase a computer with Linux preinstalled until around the last decade, online communities were essential for fielding the questions of Linux initiates. It is comforting to know there are veterans who can help when setting up an entirely new OS, especially one so off the beaten path. This has traditionally been, and remains, Linux's main analog to customer support that competing OSes offer.
+
+
+</p>
+
+</div>
+                  </div>
+                </div>
+                </div>
+        </div>
+        
+
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h2 class="mb-0">
+                    <img src="ASSETS/IMAGES/linux (2).jpg" class="card-img-top" alt="...">
+
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                 29 Years and Counting as a Powerhouse OS
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                  <div class="card-body">
+<p>
+  When Linux was born on Aug. 25, 1991, it was little more than a hobby for then 21-year old Linus Torvalds. Today the Linux community is estimated to be more than 86 million users strong.
+</p>  
+<p>
+  Awareness of Linux in the enterprise was nonexistent 29 years ago. Since then Linux has become the backbone of many large and small enterprises. It's installed in government systems and embedded in devices worldwide; and is a viable alternative to the expensive hardware wrapped around macOS and the trouble-laden Windows OS.
+</p>
+<p>
+  Software developers have ported Linux to more hardware platforms than any other operating system. That results in no small part from the popularity of the Linux-based Android operating system.
+
+
+</p>
+</div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="card">
+                <div class="card-header" id="headingEight">
+                  <h2 class="mb-0">
+                    <img src="ASSETS/IMAGES/car.jpg" class="card-img-top" alt="...">
+
+                    <button class="btn btn-link btn-block tesxt-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+                      Mercedes + Nvidia VS Tesla 
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                  <div class="card-body">
+<p>
+  Now the heading of the JD Power story said it was a ranking of the "most reliable car brands," which once again prompts me to encourage people to read things, because that isn't at all this study did.
+
+</p>
+
+<p>
+  The big clue was that value products were at the top, and premium products were at the bottom, with Tesla last. Now how could a company become the most valuable car company in the world and have the worst quality? The answer is, it couldn't.
+
+
+</p>
+<p>
+  What I mainly found fascinating is that Jaguar, Mercedes-Benz, Volvo, Audi, and Land Rover were all at the bottom, just above Tesla. Except for Land Rover and Jaguar (which have had historical quality issues) the others typically rank towards the top in terms of customer loyalty, which suggests these brands do some things right -- and Volvo, in particular, is a brand connected to very high durability.
+</p>
+<h3>
+  Tesla's Advantage
+</h3>
+<p>
+  So the major premium brands do have an expectation problem, and Tesla, I know, has a considerable quality-control problem. A friend of mine just bought one, and Tesla not only got the build wrong (wrong accessories and he didn't want the white interior he got), the paint had visible defects. But he still loves the car and is very excited about the performance and experience.
+</p>
+<p>
+  The ability to manage expectations and maintain loyalty is what I think the car industry is, as a whole, forgetting. Success is tied to customer loyalty and a healthy sales channel. Tesla owns its sales channel, which allows them to manage problems better. However, although those problems make the company less profitable, they don't bubble up to a point where they get addressed in a timely fashion.
+
+
+</p>
+
+</div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingNine">
+                    <h2 class="mb-0">
+                        <img src="ASSETS/IMAGES/conspiracy.jpg" class="card-img-top" alt="...">
+
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseOne">
+                      Conspiracy Theories Linking 5G to Coronavirus
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseNine" class="collapse show" aria-labelledby="headingNine" data-parent="#accordionExample">
+                    <div class="card-body">
+<p>
+  Facebook and YouTube are cracking down on the pervasive conspiracy theories linking the spread of coronavirus to 5G wireless technology.
+</p>                  
+<p>
+  Facebook on Monday announced it would begin to actively remove false claims that link COVID-19 to 5G and could lead to physical harm.
+</p>
+<p>
+  Facebook-owned WhatsApp has reduced the number of accounts users can forward chats to from five to one.
+</p>
+<p>
+  "We are taking aggressive steps to stop misinformation and harmful content from spreading on our platforms, and connect people to accurate information about coronavirus," a Facebook spokesperson said in a statement provided to TechNewsWorld by company rep Andrea Vallone.
+</p>
+<p>
+  Facebook "will continue to work closely with governments and other tech companies to remove harmful misinformation," the spokesperson noted. The company has partnered with health authorities like the World Health Organization and the UK National Health Service to connect people to the latest official guidance.
+
+
+</p>
+
+
+</div>
+                  </div>
+                </div>
+                </div>
+        </div>
+        
+
+    </div>
+
+  
+
+</div>
+
+
+    <!--Footer-->
+   
+
+
+<div id="footContainer"> 
+  <div class="container " id="upFoot">
+ <h2>   Subscribe to my channel
+</h2>
+
+
+
+    <div class="row">
+     
+    
+      <div class="col-lg-9 col-sm-12">
+        <input type="text" class="form-control" placeholder="First name">
+
+      </div>
+      <div class="col-lg-3 col-sm-12">
+        <button type="button" class="btn btn-danger btn-lg pr-5 pl-5 col-sm-12 "><i class="fas fa-feather-alt"></i> Subscribe</button>
+
+      </div>
+    
+    </div>
+    <div class="row">
+      <div class="col-lg-9 col-sm-12 mr-0">
+        <p id="unsubscribe">Unsubscribe at any time, it won’t even hurt my feelings because I have none.
+
+        </p>
+
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container-fluid" id="footer">
+      
+    <div class="row">
+      <div class="col-sm-12 col-lg-7">
+       <span>&copy Woldeamanual Getnet 2021</span>      
+      </div>
+      <div class="col-sm-12 col-lg-3">
+        <div class="row">
+          <div class="md-form col ">
+            <a href="https://www.youtube.com/channel/UCsWrSQ6j5cbqzdibAnfOoIQ?view_as=subscriber" target="_blank"><i class="fab fa-2x fa-youtube" ></i></a>
+          </div>
+          <div class="md-form col ">
+            <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" target="_blank"><i class="fab fa-2x fa-linkedin" ></i></a>
+          </div>
+          <div class="md-form col ">
+            <a href="https://www.facebook.com/amanuel.getnet.35"target="_blank"><i class="fab fa-2x fa-facebook-square" ></i></a>
+          </div>
+          <div class="md-form col ">
+            <a href="https://t.me/AzurGallery"target="_blank"><i class="fab fa-2x fa-telegram-plane" ></i></a>
+          </div>
+              
+        </div>
+      </div>
+      
+    </div>
+  
+</div>
+</div>
+    
+    
+
+
+    
+
+
+
+
+      <!--script-->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woldeamanual Getnet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="ASSETS/css/custom.css">
+    <link rel="stylesheet" href="ASSETS/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="ASSETS/IMAGES/LOGO.png" />
+
+    <script>
+      jQuery(document).ready(function(){
+       var navOffset = jQuery("#centerNav").offset().top;
+   
+   jQuery(window).scroll(function(){
+      var scrolPosition = jQuery(window).scrollTop();
+            
+      if(scrolPosition >= navOffset){
+         jQuery("#centerNav").addClass("fixed");
+   
+      }
+      else{
+         jQuery("#centerNav").removeClass("fixed");
+   
+   
+      }
+   
+   });
+       
+        });
+   </script>
+    
+    
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  #centerNav ul{
+     margin-right: 12%;
+     margin-left:12%;
+     word-spacing: 20px;
+     letter-spacing: 0;
+     background-color: white;
+    
+  }
+  #centerNav{
+    background-color: white;
+    z-index: 900;
+    
+  }
+  #centerNav li a{
+    color: #797878;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight:bolder;
+
+
+  }
+  .gallery-block{
+    padding-bottom: 0;
+    padding-top:50px;
+
+  }
+  .gallery-block.compact-gallery .item{
+    overflow: hidden;
+    margin-bottom: 0;
+    opacity: 1;
+  }
+  .gallery-block.compact-gallery .item .image{
+    transition: 0.8s ease;
+  }
+  .gallery-block img:hover{
+    transform: translate(0, -5px);
+    min-height:100%;
+    background-color: black;
+    opacity: 0.5; 
+  }
+ 
+ 
+
+</style>
+   
+ 
+</head>
+<body>
+ 
+    <nav class = "navbar navbar-fixed-top navbar-light navbar-expand-md navbar-template" id ="nav">
+
+<a class="navbar-brand" href="index.html" ><span id="brand">WOLDEAMANUAL</span>GETNET</a>
+
+  <button class="navbar-toggler" type ="button" data-toggle ="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+
+<div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class=" navbar-nav ml-auto " >
+ 
+      <li  class= "nav-item dropdown">
+        <a class ="nav-link dropdown-toggle" href="about.html" id ="navbarDropdown"
+        role="button"><i class="fas fa-user-secret"></i>&nbsp;ABOUT</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="whatNow.html"><i class="fas fa-clock"></i> WHAT I'M DOING NOW</a>
+            <a class="dropdown-item" href="contact.html"><i class="fas fa-address-book"></i> CONTACT ME</a>
+
+        </div>
+    </li>
+
+
+    <li class ="nav-item active">
+        <a id="navbarDropdown" class ="nav-link" href="books.html"><i class="fas fa-book-open"></i>&nbsp;READING</a>
+    </li>
+      
+<li class ="nav-item active">
+    <a id="navbarDropdown" class ="nav-link" href="course.html"><i class="fas fa-pen-nib"></i>&nbsp;COURSES</a>
+</li>
+<li class ="nav-item active">
+    <a id="navbarDropdown" class ="nav-link" href="blog.html"><i class="fas fa-rss"></i>&nbsp;BLOG</a>
+</li>
+
+<li class ="nav-item active">
+  <a id="navbarDropdown" class ="nav-link" href="https://www.facebook.com/amanuel.getnet.35" style="background:white;"><i class="fab fa-facebook-f"></i>  </a>
+
+</li>
+
+<li class ="nav-item active">
+  <a id="navbarDropdown" class ="nav-link" href="https://t.me/AzurGallery" style="background:white;"><i class="fab fa-telegram-plane"></i>  </a>
+</li>
+
+<li class ="nav-item active">
+  <a id="navbarDropdown" class ="nav-link" href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" style="background:white;"><i class="fab fa-linkedin"></i>  </a>
+</li>
+
+    </ul>
+
+</div>
+
+    </nav>
+
+<!--now-->
+
+<div class="aboutTitle">
+    <h1>WHAT I'M DOING NOW</h1>
+</div>
+
+<div class="container-fluid" id="middleCenter" style="padding-left:20px; font-size: 20px;">
+  <p>
+I'm in Addis Ababa persuing my education. Here are some thing I do:
+
+  </p>
+  <p>
+      <ul>
+          <li>
+              Study my courses according to my schedule and grasp what I'm learnig
+          </li>
+          <li>
+              Paint and sketch on most of Sundays
+        </li>
+        <li>
+            Exercise everyday with some challenge of an interval. Currently, my challenge was a T25 Focus by Shoun T. 
+        </li>
+        <li>
+            Reading books of Psycology, History, Fiction, Poetry, Folktale and others.
+        </li>
+      </ul>
+  </p>
+  
+</div>
+
+
+
+
+    <!--Footer-->
+   
+
+
+<div id="footContainer"> 
+  <div class="container " id="upFoot">
+ <h2>   Subscribe to my channel
+</h2>
+
+ 
+
+    <div class="row">
+     
+    
+      <div class="col-lg-9 col-sm-12">
+        <input type="text" class="form-control" placeholder="First name">
+
+      </div>
+      <div class="col-lg-3 col-sm-12">
+        <button type="button" class="btn btn-danger btn-lg pr-5 pl-5 col-sm-12 "><i class="fas fa-feather-alt"></i> Subscribe</button>
+
+      </div>
+    
+    </div>
+    <div class="row">
+      <div class="col-lg-9 col-sm-12 mr-0">
+        <p id="unsubscribe">Unsubscribe at any time, it won’t even hurt my feelings because I have none.
+
+        </p>
+
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container-fluid" id="footer">
+      
+    <div class="row">
+      <div class="col-sm-12 col-lg-7">
+       <span>&copy Woldeamanual Getnet 2021</span>      
+      </div>
+      <div class="col-sm-12 col-lg-3">
+        <div class="row">
+          <div class="md-form col ">
+            <a href="https://www.youtube.com/channel/UCsWrSQ6j5cbqzdibAnfOoIQ?view_as=subscriber" target="_blank"><i class="fab fa-2x fa-youtube" ></i></a>
+          </div>
+          <div class="md-form col ">
+            <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" target="_blank"><i class="fab fa-2x fa-linkedin" ></i></a>
+          </div>
+          <div class="md-form col ">
+            <a href="https://www.facebook.com/amanuel.getnet.35"target="_blank"><i class="fab fa-2x fa-facebook-square" ></i></a>
+          </div>
+          <div class="md-form col ">
+            <a href="https://t.me/AzurGallery"target="_blank"><i class="fab fa-2x fa-telegram-plane" ></i></a>
+          </div>
+              
+        </div>
+      </div>
+      
+    </div>
+  
+</div>
+</div>
+    
+    
+
+
+    
+
+
+
+      <!--script-->
+
+
+      <!--Gallery Script-->
+
+
+      <script src="ASSETS/js/script.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <script>
+
+        baguetteBox.run('.compact-gallery',{animation:'slideIn'});
+      </script>
+</body>
+
+</html>

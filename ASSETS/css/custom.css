@@ -51,9 +51,9 @@ nav{
     font-family: 'Roboto Mono', monospace;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 25px;
-    transition: 2s;
     
 }
+
 .navbar-brand:hover{
     font-style: italic;
 }
